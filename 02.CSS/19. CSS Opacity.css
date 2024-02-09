@@ -1,0 +1,20 @@
+body{
+    color: green;
+    background-color: black;
+}
+.div1{
+    background: url(19.\ CSS\ Opacity\ .jpg) no-repeat center;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+p{
+    font-size: 50px;
+}
+.div2{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0.5;
+}

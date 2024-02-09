@@ -1,0 +1,10 @@
+body{
+    color: green;
+    background-color: black;
+}
+.div1{
+    width: 1000 px;
+    height: 900 px;
+    background-image: url(22.\ CSS\ Sprite\ Image.png);
+    
+}

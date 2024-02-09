@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+div{
+    float: left;
+}
+.div1{
+    background-color: red;
+    height:400px;
+    width: 200px;
+}
+.div2{
+    background-color: green;
+    height:400px;
+    width: 200px;
+}
+.div3{
+    background-color: blue;
+    height:400px;
+    width: 200px;
+}
+.div4{
+    background-color: yellow;
+    height: 400px;
+    width: 200px;
+}

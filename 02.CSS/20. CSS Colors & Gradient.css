@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: green;
+}
+h1{
+    color: tomato;
+}
+h2{
+    color: rgb(255,99,71 );
+}
+p{
+    color: #FDA7DF;
+}
+.div1{
+    text-align: center;
+    font-size: 50px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, red,yellow);
+}
+.div2{
+    text-align: center;
+    font-size: 50px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(red, yellow)
+}

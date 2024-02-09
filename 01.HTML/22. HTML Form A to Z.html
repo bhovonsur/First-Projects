@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form A to Z</title>
+</head>
+<body style="background-color: black;color: green;">
+    <form action="#" method="post">
+    <h1 style="text-align: center;">Sing Up Form </h1>
+    <hr>
+    <label for="Username">Name: </label>
+    <input type="text" id="Username" name="Username" placeholder="Username" required> <br>
+    <label for="email">Email:</label>
+    <input type="email" id="Email" name="Email" placeholder="User Email" required> <br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="Password" placeholder="Enter Your Password" required><br>
+    <label for="num">Number:</label>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+990">+900</option>
+        <option value="+123">+123</option>
+    </select>
+    <input type="number" id="num" placeholder="Enter Your Number" required><br>
+    <label for="country">Country:</label>
+    <input list="country">
+    <datalist id="country">
+        <option value="Bangladesh"></option>
+        <option value="US"></option>
+        <option value="UK"></option>
+        <option value="India"></option>
+        <option value="France"></option>
+        <option value="Japan"></option>
+    </datalist><br>
+    Gender:
+    <input type="radio" id="gen1" name="gen">
+    <label for="gen1">Male</label>
+    <input type="radio" id="gen2" name="gen">
+    <label for="gen2">Female</label>
+    <input type="radio" id="gen3" name="gen">
+    <label for="gen3">Others</label><br>
+    <label for="date">Date Of Birth:</label>
+    <input type="date" id="date" name="Date"><br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="Time"><br>
+    <label for="coloe">Color</label>
+    <input type="color" id="coloe" name="Color"><br>
+    <label for="file">Choose Your File</label>
+    <input type="file" id="file" name="File"><br>
+    <input type="checkbox" id="bike" name="Bike">
+    <label for="bike">I have a Bike</label><br>
+    <input type="checkbox" id="car" name="Car">
+    <label for="car">L have a Car</label><br>
+    <textarea name="comment"cols="30" rows="10" placeholder="Comment Are This Is"></textarea><br>
+    <input type="submit" value="Sent">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

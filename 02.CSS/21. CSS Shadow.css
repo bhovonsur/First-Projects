@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: green;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px;
+}
+.div1{
+   width: 400px; 
+   height: 400px;
+   text-align: center;
+   margin: auto;
+}
+.div1 img{
+    width: 100%;
+    border: 1px solid red;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+h3{
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+body{
+    color: green;
+    background-color:black
+}
+h2:nth-child(3){
+    color: red;
+}
+h2:first-child{
+    color: blue;
+}
+P::first-letter{
+    color: red;
+    font-size: 50px;
+}
+h1::before{
+    content: url(18.\ CSS\ Pseudo\ Class\ &\ Elements.jpg);
+}

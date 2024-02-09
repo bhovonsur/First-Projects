@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: green;
+}
+.div1{
+    width: 800px;
+    height: 800px;
+    background-color: tomato;
+    margin: 100px auto;
+    /*
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0,2.06,1,1.15);*/
+    transition: all 0.5s linear  ;
+    }
+    .div1:hover{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        background-color: green;
+        transform: rotate(180deg);
+    }

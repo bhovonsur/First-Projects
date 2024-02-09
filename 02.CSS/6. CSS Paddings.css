@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: green;
+}
+.div1{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+.p1{
+    color: greenyellow;
+    padding: 50px;
+}

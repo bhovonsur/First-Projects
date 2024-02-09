@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: green;
+}
+.div1{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    margin:100px auto ;
+    position: relative;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@keyframes square{
+        0%{background-color: tomato;}
+        10%{background-color: blue;}
+        20%{background-color: yellowgreen;}
+        30%{background-color: pink;}
+        40%{background-color: brown;}
+        50%{background-color: rgb(0, 255, 234);}
+        60%{background-color: rgb(228, 3, 142);}
+        70%{background-color: rgb(255, 251, 0);}
+        80%{background-color: rgb(255, 0, 128);}
+        90%{background-color: green;}
+        100%{background-color: yellow;}     
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    border: 20px solid red;
+    border-radius: 50%;
+    margin:100px auto ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: box 2s infinite forwards;
+}
+@keyframes box{
+    0%{ border-color: red; transform: scale(1);}
+    25%{border-color: orange; transform: scale(1.1);}
+    50%{border-color: lime; transform: scale(1.2);}
+    75%{border-color: navy; transform: scale(1.3);}
+    100%{border-color: greenyellow; transform: scale(1.4);}
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    border: 5px solid white;
+    animation: gol 2s infinite alternate;
+}
+@keyframes gol{
+    0%{transform: rotate(0deg); border-width: 10px}
+    25%{border-color: aqua; border-width: 20px}
+    50%{border-color: rgb(0, 255, 85); border-width: 20px;}
+    75%{border-color: rgb(251, 255, 0); border-width: 30px;}
+    100%{border-color: aqua; transform: rotate(360deg);}
+}

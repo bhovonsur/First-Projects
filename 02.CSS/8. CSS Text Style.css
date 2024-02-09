@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: green;
+}
+h1{
+    color: red;
+    background-color: blueviolet;
+    text-align: center;
+}
+p{
+    color: yellowgreen;
+    text-transform: capitalize;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 40px;
+}

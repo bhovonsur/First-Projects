@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: green;
+}
+.p1{
+    border: 5px solid red;
+}
+#p2{
+    border: 10px dotted yellow;
+}

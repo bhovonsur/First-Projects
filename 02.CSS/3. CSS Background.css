@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    background-color: black;
+}
+body{
+    background-color: black;
+    background-image: url(3.\ CSS\ Background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+p{
+    color: greenyellow;
+}
